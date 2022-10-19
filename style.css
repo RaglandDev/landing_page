@@ -13,7 +13,7 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(253, 250, 231)
+    background-color: #B8A795;
 }
 
 .header ul {
@@ -42,8 +42,9 @@ button {
     justify-content: left;
     flex-wrap: wrap;
     margin: 0px;
-    background-color: rgb(253, 250, 231);
+    background-color: #C6B8A5;
     padding-left: 200px;
+    padding-bottom: 50px;
 }
 
 .intro img {
@@ -79,9 +80,67 @@ button {
     background-color: white;
 }
 
+.g-label {
+    text-align: center;
+    font-size: 40px;
+    background-color: #D4C8B6;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    background-color: #D4C8B6;
+}
 
 
 .gallery img {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #5a4ae3;
+}
+
+.gallery .tile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile-text p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E1D9C6;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 30px;
+}
+
+.quote h3 {
+    margin: 0px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.cta {
+    background-color: #EFE9D7;
+    display: flex;
+}
+
+.footer {
+    background-color: #FDFAE7;
+    display: flex;
+
 }
